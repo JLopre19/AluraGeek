@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header-container"> 
+        <header class="header">
+            <p>Alura Geek</p>
+        </header>
+    </div>
+    <main class="main-container">
+        <section class="mis-productos">
+            <h1>Mis productos</h1>
+            <div data-product class="cajaDeCartas">
+
+            </div>
+        </section>
+        <section class="agregar-productos">
+            <h1>Agregar producto</h1>
+            <form class="form-container" data-form>
+                <input data-name placeholder="nombre..." type="text" required>
+                <input data-price placeholder="precio..." type="text" required>
+                <input data-image placeholder="imagen..." type="text" required>
+
+                <div class="button-container">
+                    <button type="submit" class="button-submit" id="button">Enviar...</button>
+                    <button type="reset" class="button-reset" id="button">Limpiar...</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer-container">
+        <div class="footer-content">
+            <p>Alura Geek</p>
+            <p>Desarrollado por Alberto López</p>
+            <p>Alura LATAM | 2024</p>
+        </div>
+    </footer>
+    <script type="module" src="js/controllers/main.js"></script>
+</body>
+</html>

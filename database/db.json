@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "name": "Spider-Man",
+      "price": "7,670",
+      "image": "https://ss639.liverpool.com.mx/xl/1130283043.jpg",
+      "id": "2"
+    },
+    {
+      "name": "Levi Ackerman",
+      "price": "2,490",
+      "image": "https://tiendapanini.com.mx/media/catalog/product/Q/B/QBAND147.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=897&width=960&canvas=960:897",
+      "id": "3"
+    },
+    {
+      "name": "Batman",
+      "price": "11,800",
+      "image": "https://ss639.liverpool.com.mx/xl/1146071071.jpg",
+      "id": "4"
+    }
+  ]
+}
