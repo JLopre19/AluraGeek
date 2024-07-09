@@ -2,12 +2,6 @@
 
 Este Challenge fue realizado con la finalidad de reforzar los conocimientos en CSS y profundizar en los nuevos aprendizajes en JS, creando una API falsa para utilizar diversos métodos del protocolo HTTP
 
-## Tabla de Contenidos
-
-- [Uso](#uso)
-- [Contribución](#contribución)
-- [Licencia](#licencia)
-
 ## Uso
 
 En esta página se puedes cargar datos sobre productos, pensado temáticamente en figuras de colección. En la parte derecha de la pantalla aparece el formulario para dicha acción. Basta con colocar el nombre de la figura, el precio y un enlace a la imagen que se visualizará en la página para que la figura aparezca en el menu de MIS PRODUCTOS. 
